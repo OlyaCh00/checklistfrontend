@@ -1,0 +1,14 @@
+.textarea {
+  resize: none;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  background: none;
+  width: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #3A3B3D;
+}

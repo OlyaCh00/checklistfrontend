@@ -1,0 +1,84 @@
+.checkList__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.item__checkbox {
+  display: none;
+  appearance: none;
+  opacity: 0;
+}
+
+.item__label {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item__box {
+  cursor: pointer;
+  min-width: 20px;
+  height: 20px;
+  border: 1.5px solid #3A3B3D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.item__text {
+  display: flex;
+  align-self: center;
+  position: relative;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #3A3B3D;
+  white-space: pre-wrap;
+}
+
+.item__box_done {
+  background: #3A3B3D;
+  opacity: 0.5;
+}
+
+.item__box_done:after, .item__box_done:before,
+.item:hover .item__box:before, .item:hover .item__box:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 6px;
+  width: 6px;
+  height: 12px;
+  border: solid #FBF5FE;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.item:hover .item__text, .item__text_done {
+  text-decoration: line-through;
+  color: #3A3B3D;
+  opacity: 0.5;
+}
+
+.item:hover .item__box {
+  background: #3A3B3D;
+  opacity: 0.5;
+}
+
+

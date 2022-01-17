@@ -1,0 +1,45 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 31px 118px 0 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3A3B3D;
+  position: relative;
+}
+
+.menu__item {
+  margin-left: 0px;
+  text-align: left;
+}
+
+.menu__item_active {
+  color: #871FA0;
+}
+
+.menu__link_sub {
+  position: absolute;
+  background: #EFD5F5;
+  padding: 20px;
+  border-radius: 20px;
+  top: -20px;
+  right: 80px;
+  width: fit-content;
+}
+
+.menu__submenu {
+  padding: 0;
+}
+
+.submenu {
+
+}
+
+.menu__subitem {
+  margin: 17px 0;
+}

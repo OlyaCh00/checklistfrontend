@@ -1,0 +1,109 @@
+.listPage {
+  margin: 5px 90px;
+  color: #3A3B3D;
+}
+
+.header {
+
+}
+
+.header__name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.checkLists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.menu {
+
+}
+
+.menu__nav {
+  width: 273px;
+  height: 42px;
+  left: 89px;
+  top: 121px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav__item {
+  padding-top: 12px;
+}
+
+.emptyLists {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #3A3B3D;
+  margin-top: 12%;
+
+}
+
+.emptyLists__link {
+  color: #871FA0;
+}
+
+.menu__createBtn {
+  width: 194px;
+  height: 42px;
+  border: 2px solid #C1C1C1;
+  border-radius: 15px;
+}
+
+.menu__createBtn:hover {
+  border: 2px solid #871fa085;
+  cursor: pointer;
+}
+
+.createBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.createBtn__plus {
+  padding: 10px 5px 10px 10px;
+  background: url("/src/assets/img/plus.svg") no-repeat center center;
+  width: 23.76px;
+  height: 21.6px;
+}
+
+.createBtn__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 10px 10px 10px 5px;
+}
+
+.checkList {
+  width: 410px;
+}
